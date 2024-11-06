@@ -1,3 +1,10 @@
+# Generate a blur_hash for an uploaded image and send it along with the image using FastAPI.
+### Install the required dependencies:
+```bash
+pip install fastapi[all] pillow blurhash
+```
+### FastAPI example to generate and send blur_hash
+
 ```python
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse
